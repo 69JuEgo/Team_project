@@ -3,16 +3,19 @@
     <head>
         <style>
             body{
-                background-color: black;
-                /* background-image: url("iphone.jpeg");
+                /* padding: 40px; */
+                border-image-slice: fill;
+                /* background-image: url("photography-of-macbook-half-opened-on-white-wooden-surface-633409.jpg"); */
+                background-image: url("semi-opened-laptop-computer-turned-on-on-table-2047905.jpg");
                 background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-                position: relative; */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
             }
             .main{
-                background-image: url("Realme-6-Pro-23.jpg");
+                /* background-image: url("Realme-6-Pro-23.jpg"); */
+                background-image: url("iphone.jpeg");
                 background-size: 550px;
                 background-attachment: scroll;
                 width: 400px;
@@ -26,68 +29,108 @@
                 position: relative;                      
             }
             .lefty{
-                width: 300px;
-                height: 250px;
+                background-image: url("AMD.jpg");
+                background-repeat: no-repeat;
+                margin: 20px;
+                width: 500px;
+                height: 281px;
                 box-shadow:5px 5px 20px 10px grey;   
-                float: left;
-                margin: 35px;
+                float:right;
+                margin-right: 135px;
             }
             .righty{
-                width: 500px;
+                background-image: url("smart-tv.jpg");
+                width: 800px;
                 height: 500px;
                 box-shadow:5px 5px 20px 10px grey;   
                 float: right;
                 margin: 40px;
             }
-            .sp { 
-                font-size:40px; 
-                color:green; 
-                font-weight:bold; 
-                text-align:center 
-            } 
-            .op { 
-                text-align:center; 
-            } 
-            #bottom { 
-                position: absolute;
-                bottom:0;                  
-                left:10;                          
-            }
-            .txt{
-                padding: 40px;
-                position: relative;
+            p{
+                font-size: 70px;
                 text-align: center;
-                font-size: larger;
-                font-weight: 200;
-                font-style: italics;
+                font-style: italic;
+                color: rgb(74, 202, 149);
+                margin: auto;
+                width: 50%;
+                padding-top: 40px;
+                padding-bottom: 50px;
             }
             .head{
                 width: 100%;
-                height: 30px;
-                background-color: rgb(174, 179, 221);
+                height: 281px;
+                
+            }
+            .blocks{
+                width: 100%;
+                height: 500px;
+                float: left;
+                color: white;
+                position: relative;
+            }
+            .items{
+                width: 350px;
+                height: 460px;
+                float: left;
+                margin: 10px;
+                /* box-shadow: 5px 5px 10px 5px rgb(77, 194, 209); */
+            }
+            #sp1{
+                background-image: url("sp1.jpg");
+                background-repeat: no-repeat;
+            }
+            #sp2{
+                float: left;
+                margin: 10px;
+                width: 850px;
+                height: 460px;
+                background-image: url("sp2.jpg");
+                /* box-shadow: 5px 5px 10px 5px rgb(235, 17, 17); */
+
+            }
+            #sp3{
+                width: 600px;
+                height: 337px;
+                float: left;
+                background-image: url("sp3.jpg");
+                margin-left: 10px;
+                margin-top: 10px;
+                /* box-shadow: inset 5px 5px 10px 5px rgb(218, 209, 209); */
+
+            }
+            #search{
+                /* align-items: flex-end; */
             }
         </style>
     </head>
     <body>
         <div class="head">
-
+            <p>TECH INFORMATION</p>
+            <div id="search">
+                <input text="name";name="name" placeholder="search">
+            </div>
         </div>
         <div class="main">
-            <div class = "sp">SmartPhones</div> 
-            <div class = "op">New Era of Phones</div>
-            <div id="bottom">more details</div>
-            <div class="txt">
-                The New Era of Begins here..
-            </div>
             
         </div>
-        <div class="lefty">
-            Shiva
+        <div  class="lefty">
+
         </div>
-        <div class="lefty">
-            Shiva
-        </div>
+        
         <div class="righty">
+
+        </div>
+        <div class="blocks">
+            <p style="text-align:left">TRENDING STOCK</p>
+            <div id="sp1" class="items">
+
+            </div>
+            <div id="sp2">
+
+            </div>
+            <div id="sp3">
+
+            </div>
 
         </div>
     </body>
